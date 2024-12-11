@@ -33,3 +33,40 @@
       isVerified: false,
     },
   ];
+
+export const sections = [
+  {
+    title: "Services",
+    items: [
+      ["Doppler", "Vascular Imaging", "Cytological examination", "Pathology Services", "Painless HSG"],
+      ["Cranial Ultrasound", "Breast ultrasound", "Simple radiology", "Health Packages", "Scrotal Ultrasound"],
+      ["Interventional Neuroradiology", "HSG-Hysterosalpin Giography", "Interventional Diagnostic", "Fine Needle Aspiration Cytology", "Musculoskeletal"],
+    ],
+  },
+];
+
+export const details = [
+  {
+    title: "Specializations",
+    items: ["Radiologist", "Ultrasonologist"],
+  },
+  {
+    title: "Education",
+    items: [
+      "MBBS - A P Singh University, Rewa, 1997",
+      "Diploma in Medical Radio-Diagnosis - University of Delhi, 2005",
+    ],
+  },
+  {
+    title: "Memberships",
+    items: ["Delhi Medical Council"],
+  },
+  {
+    title: "Experience",
+    items: ["2001 - 2016 radiologist at Dwarka"],
+  },
+  {
+    title: "Registrations",
+    items: ["18402 Delhi Medical Council, 2003"],
+  },
+];
