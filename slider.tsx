@@ -50,6 +50,7 @@ const BuyServicePlans = () => {
   return (
     <section className="slider-container">
       <div className="slider-images">
+        <div>
         {sliderData.map((item, index) => (
           <div
             key={index}
@@ -59,6 +60,7 @@ const BuyServicePlans = () => {
             <img src={item.img} alt={item.name} />
             
             
+          </div>
           </div>
         ))}
       </div>
