@@ -50,7 +50,7 @@ const BuyServicePlans = () => {
   return (
     <section className="slider-container">
       <div className="slider-images">
-        <div><
+        <div>
         {sliderData.map((item, index) => (
           <div
             key={index}
@@ -61,7 +61,7 @@ const BuyServicePlans = () => {
             
             
           </div>
-          /div>
+          </div>
         ))}
       </div>
     </section>
